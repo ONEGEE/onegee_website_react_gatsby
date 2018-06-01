@@ -22,8 +22,8 @@ class Header extends React.Component {
 						<Grid.Column width={4}>
 							<Segment inverted>
 								<SegmentHeader as='h1' floated='left'>
-									<Link to='/' style={{ color: '#fff' }}>
-										ONEGEE
+									<Link to='/home/' style={{ color: '#fff' }}>
+										1G
 									</Link>
 								</SegmentHeader>
 							</Segment>
@@ -46,11 +46,11 @@ class Header extends React.Component {
 										active={activeItem === 'DESIGN'}
 										onClick={this.handleItemClick}
 									/>
-									<Menu.Item
+									{/* <Menu.Item
 										name='CODE'
 										active={activeItem === 'CODE'}
 										onClick={this.handleItemClick}
-									/>
+									/> */}
 								</Menu>
 							</Segment>
 						</Grid.Column>

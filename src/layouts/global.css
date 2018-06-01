@@ -2,4 +2,10 @@ body,
 html {
 	background: #1b1c1d;
 	color: #fff;
+
+	height: 100%;
+}
+
+#___gatsby {
+	height: 100%;
 }
